@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:8000
+
+GET {{baseUrl}}/items/2?q=12
+
+###
+
+GET {{baseUrl}}/items/12?q=56
+Accept: application/json
+
+
+###
+GET {{baseUrl}}/customers
+Accept: application/json
